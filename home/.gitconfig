@@ -1,0 +1,9 @@
+[user]
+	name = Charles Spencer Blancas
+	email = charles.blancas@mail.mcgill.ca
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	editor = code --wait
