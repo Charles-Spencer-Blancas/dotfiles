@@ -3,8 +3,11 @@ if status is-interactive
 end
 
 # Set Ruby path for Arch
-export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-export PATH="$PATH:$GEM_HOME/bin"
+# export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+# export PATH="$PATH:$GEM_HOME/bin"
+
+# Homeshick
+source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Abbreviations
 abbr gcm "git commit -m"
