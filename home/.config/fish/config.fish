@@ -2,6 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Export CHROME_BIN for Angular
+export CHROME_BIN="/usr/bin/chromium"
+
 # Set Ruby path for Arch
 # export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # export PATH="$PATH:$GEM_HOME/bin"
