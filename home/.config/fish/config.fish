@@ -25,3 +25,6 @@ abbr grh "git reset --hard"
 abbr gf "git fetch"
 abbr gpl "git pull"
 abbr gps "git push"
+
+# JetBrains Toolbox
+export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
