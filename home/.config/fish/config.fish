@@ -5,9 +5,12 @@ end
 # Export CHROME_BIN for Angular
 export CHROME_BIN="/usr/bin/chromium"
 
-# Set Ruby path for Arch
+# Ruby Path
 # export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # export PATH="$PATH:$GEM_HOME/bin"
+
+# JetBrains Toolbox Path (May not be needed...)
+# export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # Homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.fish"
@@ -25,6 +28,8 @@ abbr grh "git reset --hard"
 abbr gf "git fetch"
 abbr gpl "git pull"
 abbr gps "git push"
+abbr gd "git diff"
+abbr gr1 "git reset HEAD --"
+abbr grh1 "git checkout HEAD --" # Undoes all changes for 1 file (basically git reset --hard for single file)
 
-# JetBrains Toolbox
-# export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
+
