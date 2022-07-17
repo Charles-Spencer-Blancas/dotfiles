@@ -10,10 +10,10 @@ export CHROME_BIN="/usr/bin/chromium"
 # export PATH="$PATH:$GEM_HOME/bin"
 
 # JetBrains Toolbox Path (May not be needed...)
-# export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
+export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # Homeshick
-# source "$HOME/.homesick/repos/homeshick/homeshick.fish"
+source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Abbreviations
 abbr gcm "git commit -m"
