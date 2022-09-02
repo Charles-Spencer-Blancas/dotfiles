@@ -1,3 +1,5 @@
 function job_search
-    grep -i $argv ~/MEGA/"Job Search Summer 2022"/JobSearchSummer22.csv
+    set jobSearchCSV "$HOME/JobSearchScripts/Testing/test.csv"
+
+    grep -i $argv $jobSearchCSV
 end
