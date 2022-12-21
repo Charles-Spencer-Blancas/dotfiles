@@ -22,6 +22,9 @@ export PATH="$PATH:$HOME/.emacs.d/bin"
 # Flutter
 export PATH="$PATH:$HOME/.flutter/bin"
 
+# PlatformIO
+export PATH="$PATH:$HOME/.platformio/penv/bin"
+
 # Abbreviations and Aliases
 abbr gcm "git commit -m"
 abbr gs "git status"
