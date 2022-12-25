@@ -25,6 +25,11 @@ export PATH="$PATH:$HOME/.flutter/bin"
 # PlatformIO
 export PATH="$PATH:$HOME/.platformio/penv/bin"
 
+# For Job Application Tracking
+set resumeFolder $HOME/MEGA/Resume
+set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
+set jobTrackCSV $HOME/MEGA/JobSearchSummer2023/JobSearchSummer2023.csv
+
 # Abbreviations and Aliases
 abbr gcm "git commit -m"
 abbr gs "git status"
