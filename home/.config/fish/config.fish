@@ -25,6 +25,13 @@ export PATH="$PATH:$HOME/.flutter/bin"
 # PlatformIO
 export PATH="$PATH:$HOME/.platformio/penv/bin"
 
+# Pyenv
+export PATH="$PATH:$HOME/.pyenv/bin"
+pyenv init - | source
+
+# Codon
+export PATH="$PATH:$HOME/.codon/bin"
+
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
 set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
