@@ -32,6 +32,9 @@ pyenv init - | source
 # Codon
 export PATH="$PATH:$HOME/.codon/bin"
 
+# Android
+export ANDROID_HOME="$HOME/Android/Sdk"
+
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
 set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
