@@ -26,8 +26,8 @@ export PATH="$PATH:$HOME/.flutter/bin"
 export PATH="$PATH:$HOME/.platformio/penv/bin"
 
 # Pyenv
-export PATH="$PATH:$HOME/.pyenv/bin"
-pyenv init - | source
+#export PATH="$PATH:$HOME/.pyenv/bin"
+#pyenv init - | source
 
 # Codon
 export PATH="$PATH:$HOME/.codon/bin"
