@@ -13,8 +13,8 @@ export CHROME_EXECUTABLE="/usr/bin/chromium-browser"
 # JetBrains Toolbox Path (May not be needed...)
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
-# Homeshick
-source "$HOME/.homesick/repos/homeshick/homeshick.fish"
+# Homeshick Fedora
+# source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Emacs
 export PATH="$PATH:$HOME/.emacs.d/bin"
