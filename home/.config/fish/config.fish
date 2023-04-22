@@ -41,6 +41,7 @@ set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
 set jobTrackCSV $HOME/MEGA/JobSearchSummer2023/JobSearchSummer2023.csv
 
 # Abbreviations and Aliases
+# Git
 abbr gcm "git commit -m"
 abbr gs "git status"
 abbr ga "git add"
@@ -57,5 +58,7 @@ abbr gd "git diff"
 abbr gr1 "git reset HEAD --"
 abbr grh1 "git checkout HEAD --" # Undoes all changes for 1 file (basically git reset --hard for single file)
 
+# Zypper
+abbr zy "zypper"
 
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/charles/.ghcup/bin # ghcup-env
