@@ -14,7 +14,7 @@ export CHROME_EXECUTABLE="/usr/bin/chromium-browser"
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # Homeshick Fedora
-# source "$HOME/.homesick/repos/homeshick/homeshick.fish"
+source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Emacs
 export PATH="$PATH:$HOME/.emacs.d/bin"
