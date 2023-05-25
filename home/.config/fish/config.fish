@@ -35,6 +35,9 @@ export PATH="$PATH:$HOME/.codon/bin"
 # Android
 export ANDROID_HOME="$HOME/Android/Sdk"
 
+# Rust
+export PATH="$PATH:$HOME/.cargo/bin"
+
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
 set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
