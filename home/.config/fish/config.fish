@@ -38,6 +38,9 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 # Rust
 export PATH="$PATH:$HOME/.cargo/bin"
 
+# Scala
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
+
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
 set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
