@@ -17,7 +17,7 @@ export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Emacs
-export PATH="$PATH:$HOME/.emacs.d/bin"
+export PATH="$PATH:$HOME/.config/emacs/bin"
 
 # Flutter
 export PATH="$PATH:$HOME/.flutter/bin"
