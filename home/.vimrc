@@ -1,11 +1,10 @@
-set clipboard="unnamedplus" 
-set number 
-set relativenumber 
-set autoindent 
-set expandtab 
-set shiftround 
-set shiftwidth=2
-set smarttab 
+set clipboard+=unnamedplus "System clipboard integration, need xclip/wl-clipboard
+set number                 "Shows the absolute line number for current line 
+set relativenumber         "Shows relative line number for other lines
+set autoindent             "Copy indentaton from line above 
+set expandtab              "Turns tabs to spaces automatically. This is a tab-free household
+set shiftwidth=2           "
+set shiftround             "Rounds indent to multiples of shift width when using < and >
 set tabstop=2
 set hlsearch 
 set ignorecase 
@@ -30,7 +29,7 @@ set splitbelow
 set hidden 
 set backup 
 set writebackup 
-set signcolumn="yes:1"
+set signcolumn=yes
 set cmdheight=1
 set updatetime=1000
 set swapfile 
