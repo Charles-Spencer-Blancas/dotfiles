@@ -66,5 +66,3 @@ abbr grh1 "git checkout HEAD --" # Undoes all changes for 1 file (basically git 
 
 # Zypper
 # abbr -p anywhere zy "zypper"
-
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/charles/.ghcup/bin # ghcup-env
