@@ -2,11 +2,11 @@ set clipboard+=unnamedplus "System clipboard integration, need xclip/wl-clipboar
 set number                 "Shows the absolute line number for current line 
 set relativenumber         "Shows relative line number for other lines
 set autoindent             "Copy indentaton from line above 
-set expandtab              "Turns tabs to spaces automatically. This is a tab-free household
-set shiftwidth=2           "
+set shiftwidth=4           "Number of spaces used for autoindent, <, and >
 set shiftround             "Rounds indent to multiples of shift width when using < and >
-set tabstop=2
-set hlsearch 
+set expandtab              "Turns tabs to spaces automatically. This is a tab-free household
+set tabstop=4              "Number of spaces that a tab gets turned into
+set hlsearch               "Highlight search 
 set ignorecase 
 set incsearch 
 set smartcase 
@@ -20,7 +20,7 @@ set ruler
 set wildmenu 
 set errorbells 
 set mouse=a
-set backspace="indent,eol,start"
+set backspace=indent,eol,start
 set confirm 
 set history=1000
 set completeopt=menuone,noinsert,noselect
