@@ -2,6 +2,8 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+# Activate vi mode
+fish_vi_key_bindings
 # Export CHROME bin,executable
 export CHROME_BIN="/usr/bin/chromium-browser"
 export CHROME_EXECUTABLE="/usr/bin/chromium-browser"
