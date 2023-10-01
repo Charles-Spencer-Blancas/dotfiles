@@ -28,8 +28,8 @@ export PATH="$PATH:$HOME/.flutter/bin"
 export PATH="$PATH:$HOME/.platformio/penv/bin"
 
 # Pyenv
-#export PATH="$PATH:$HOME/.pyenv/bin"
-#pyenv init - | source
+export PATH="$PATH:$HOME/.pyenv/bin"
+pyenv init - | source
 
 # Codon
 export PATH="$PATH:$HOME/.codon/bin"
@@ -65,6 +65,9 @@ abbr gps "git push"
 abbr gd "git diff"
 abbr gr1 "git reset HEAD --"
 abbr grh1 "git checkout HEAD --" # Undoes all changes for 1 file (basically git reset --hard for single file)
+
+# GCC flags
+abbr gccall "gcc -Og -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes -Wwrite-strings -Waggregate-return -Wcast-qual -Wconversion -Wunreachable-code -Wformat=2 -pedantic -pedantic-errors -Wold-style-definition -std=c17"
 
 # Zypper
 # abbr -p anywhere zy "zypper"
