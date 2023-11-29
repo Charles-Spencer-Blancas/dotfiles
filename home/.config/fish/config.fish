@@ -71,3 +71,6 @@ abbr gccall "gcc -Og -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arit
 
 # Zypper
 # abbr -p anywhere zy "zypper"
+
+# Emacs Client
+abbr emacs "emacsclient -c -a 'emacs'"
