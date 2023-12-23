@@ -43,6 +43,9 @@ export PATH="$PATH:$HOME/.cargo/bin"
 # Scala
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
+# Add packages installed by Sdk
+fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
+
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
 set jobSearchFolder $HOME/MEGA/JobSearchSummer2023
@@ -74,3 +77,7 @@ abbr gccall "gcc -Og -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arit
 
 # Emacs Client
 abbr emacs "emacsclient -c -a 'emacs'"
+
+# nnn, n is the command that cds into the right directory,
+# so replace nnn with just n
+alias nnn n
