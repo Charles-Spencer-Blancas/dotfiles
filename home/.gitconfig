@@ -9,3 +9,7 @@
 	editor = code --wait
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
