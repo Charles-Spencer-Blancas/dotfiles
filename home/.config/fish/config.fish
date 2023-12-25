@@ -8,6 +8,10 @@ fish_vi_key_bindings
 export CHROME_BIN="/usr/bin/chromium-browser"
 export CHROME_EXECUTABLE="/usr/bin/chromium-browser"
 
+# Fishy business
+set FISH_CONFIG "$HOME/.config/fish/config.fish"
+set FISH_FOLDER "$HOME/.config/fish"
+
 # Ruby Path
 # export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 # export PATH="$PATH:$GEM_HOME/bin"
@@ -78,6 +82,8 @@ abbr gccall "gcc -Og -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arit
 # Emacs Client
 abbr emacs "emacsclient -c -a 'emacs'"
 
-# nnn, n is the command that cds into the right directory,
-# so replace nnn with just n
-alias nnn n
+# Bat (Better cat, with colors!!!)
+abbr bat "bat --theme OneHalfLight -pp"
+
+# Paged bat, it's more or less like more or less but colorful!
+abbr pat "bat --theme OneHalfLight"
