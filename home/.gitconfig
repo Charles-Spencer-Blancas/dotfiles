@@ -6,10 +6,9 @@
 [color]
 	ui = auto
 [core]
-	editor = code --wait
+	editor = nvim
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [diff]
     tool = default-difftool
-[difftool "default-difftool"]
-    cmd = code --wait --diff $LOCAL $REMOTE
+
