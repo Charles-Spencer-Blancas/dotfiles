@@ -47,6 +47,12 @@ export PATH="$PATH:$HOME/.cargo/bin"
 # Scala
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 
+# Go
+export PATH="$PATH:$HOME/go/bin"
+
+# Dotnet
+export PATH="$PATH:$HOME/.dotnet/tools"
+
 # Add packages installed by Sdk
 fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
 
@@ -87,3 +93,12 @@ abbr bat "bat --theme OneHalfLight -pp"
 
 # Paged bat, it's more or less like more or less but colorful!
 abbr pat "bat --theme OneHalfLight"
+
+# Better ls
+abbr lx "eza --icons"
+
+# opam configuration
+source /home/charles/.opam/opam-init/init.fish >/dev/null 2>/dev/null; or true
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+set -gx PATH $HOME/.cabal/bin $PATH /home/charles/.ghcup/bin # ghcup-env
