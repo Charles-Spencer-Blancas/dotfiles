@@ -52,6 +52,11 @@ export PATH="$PATH:$HOME/go/bin"
 
 # Dotnet
 export PATH="$PATH:$HOME/.dotnet/tools"
+alias fsi='dotnet fsi'
+alias fsharpi='dotnet fsi'
+
+# Local
+export PATH="$PATH:$HOME/.local/bin"
 
 # Add packages installed by Sdk
 fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
