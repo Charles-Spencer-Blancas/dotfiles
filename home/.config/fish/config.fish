@@ -58,6 +58,9 @@ alias fsharpi='dotnet fsi'
 # Local
 export PATH="$PATH:$HOME/.local/bin"
 
+# ActivityWatch
+export PATH="$PATH:$HOME/Applications/activitywatch"
+
 # Add packages installed by Sdk
 fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
 
