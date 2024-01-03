@@ -110,3 +110,6 @@ source /home/charles/.opam/opam-init/init.fish >/dev/null 2>/dev/null; or true
 
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 set -gx PATH $HOME/.cabal/bin $PATH /home/charles/.ghcup/bin # ghcup-env
+
+# Trash
+abbr tp trash-put
