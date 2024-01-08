@@ -20,7 +20,7 @@ set FISH_FOLDER "$HOME/.config/fish"
 export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
 
 # Homeshick Fedora
-source "$HOME/.homesick/repos/homeshick/homeshick.fish"
+# source "$HOME/.homesick/repos/homeshick/homeshick.fish"
 
 # Emacs
 export PATH="$PATH:$HOME/.config/emacs/bin"
@@ -32,8 +32,8 @@ export PATH="$PATH:$HOME/.flutter/bin"
 export PATH="$PATH:$HOME/.platformio/penv/bin"
 
 # Pyenv
-export PATH="$PATH:$HOME/.pyenv/bin"
-pyenv init - | source
+# export PATH="$PATH:$HOME/.pyenv/bin"
+# pyenv init - | source
 
 # Codon
 export PATH="$PATH:$HOME/.codon/bin"
@@ -62,7 +62,7 @@ export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/Applications/activitywatch"
 
 # Add packages installed by Sdk
-fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
+# fish_add_path (find ~/.sdkman/candidates/*/current/bin -maxdepth 0)
 
 # For Job Application Tracking
 set resumeFolder $HOME/MEGA/Resume
@@ -104,6 +104,9 @@ abbr pat "bat --theme OneHalfLight"
 
 # Better ls
 abbr lx "eza --icons"
+
+# Clear nvim cache
+abbr ncc "trash-put /home/charles/.local/state/nvim/swap"
 
 # opam configuration
 source /home/charles/.opam/opam-init/init.fish >/dev/null 2>/dev/null; or true
