@@ -1,7 +1,7 @@
 #!/usr/bin/fish
 
-set name "Charles Spencer Blancas"
-set email "86479293+Charles-Spencer-Blancas@users.noreply.github.com"
+set name "Charles Blancas"
+set email "86479293+charlesblancas@users.noreply.github.com"
 
 git config --global user.name "$name"
 git config --global user.email "$email"
