@@ -91,7 +91,7 @@ abbr grh1 "git checkout HEAD --" # Undoes all changes for 1 file (basically git 
 abbr gccall "gcc -Og -Wall -Wextra -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wcast-align -Wstrict-prototypes -Wwrite-strings -Waggregate-return -Wcast-qual -Wconversion -Wunreachable-code -Wformat=2 -pedantic -pedantic-errors -Wold-style-definition -std=c17"
 
 # Zypper
-# abbr -p anywhere zy "zypper"
+abbr -p anywhere zy zypper
 
 # Emacs Client
 abbr emacs "emacsclient -c -a 'emacs'"
